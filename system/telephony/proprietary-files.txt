@@ -32,7 +32,6 @@ product/etc/permissions/UimService.xml
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 -system_ext/app/SimContact/SimContact.apk
 -system_ext/app/atfwd/atfwd.apk
--system_ext/app/datastatusnotification/datastatusnotification.apk
 -system_ext/app/embms/embms.apk
 -system_ext/app/imssettings/imssettings.apk
 -system_ext/app/uceShimService/uceShimService.apk
@@ -108,6 +107,7 @@ system_ext/etc/spn-conf.xml
 -system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar
 -system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar
 -system_ext/framework/vendor.qti.ims.configservice-V1.0-java.jar
+-system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar
 -system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar
 -system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar
 -system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar

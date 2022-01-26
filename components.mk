@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Current system tag :- LA.QSSI.12.0.r1-05600-qssi.0
+# Current vendor tag :- LA.UM.9.14.r1-18600.02-LAHAINA.QSSI12.0
+
 ifeq ($(TARGET_COMMON_QTI_COMPONENTS), all)
 TARGET_COMMON_QTI_COMPONENTS := \
     audio \
@@ -117,10 +120,6 @@ include $(QCOM_COMMON_PATH)/vendor/wlan/qti-wlan.mk
 endif
 
 # <= MSM8998
-ifneq (,$(filter wfd-legacy, $(TARGET_COMMON_QTI_COMPONENTS)))
-include $(QCOM_COMMON_PATH)/system/wfd-legacy/qti-wfd-legacy.mk
-endif
-
 ifneq (,$(filter adreno-legacy, $(TARGET_COMMON_QTI_COMPONENTS)))
 include $(QCOM_COMMON_PATH)/vendor/adreno-legacy/qti-adreno-legacy.mk
 endif
